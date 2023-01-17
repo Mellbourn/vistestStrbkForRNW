@@ -25,6 +25,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {KlasLabel} from './KlasLabel';
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -42,6 +44,7 @@ function Section({children, title}: SectionProps): JSX.Element {
         ]}>
         {title}
       </Text>
+      <KlasLabel />
       <Text
         style={[
           styles.sectionDescription,
