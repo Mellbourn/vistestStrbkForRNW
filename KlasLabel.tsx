@@ -44,7 +44,7 @@ export function KlasLabel(): JSX.Element {
         <View>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+            screen and then come back to see your edits. This is added text.
           </Section>
           <Section title="Learn More">
             Read the docs to discover what to do next:
