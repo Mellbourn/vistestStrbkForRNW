@@ -9,7 +9,8 @@
     "start": "react-native start",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=7b15f5a5c0cc"
   },
   "dependencies": {
     "react-native": "0.71.0"
@@ -50,5 +51,7 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "vistestStrbkForRNW@0.0.1"
 }
